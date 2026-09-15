@@ -16,7 +16,6 @@ body:
     attributes:
       label: 팀
       options:
-        - 공통
         - 인지
         - 보행
     validations:
@@ -33,27 +32,11 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: deadline
-    attributes:
-      label: 제출 기한
-      placeholder: YYYY-MM-DD
-    validations:
-      required: true
-
   - type: textarea
     id: goal
     attributes:
-      label: 목표
-      description: 이번 과제에서 구현하거나 달성할 내용
-    validations:
-      required: true
-
-  - type: textarea
-    id: completion
-    attributes:
-      label: 완료 기준
-      description: 어떤 결과가 나오면 완료인지 작성
+      label: 학습 내용
+      description: 이번 과제에서 구현한 내용 및 배운 점 (자유롭게 작성)
     validations:
       required: true
 
@@ -61,4 +44,4 @@ body:
     id: references
     attributes:
       label: 참고 자료
-      description: 과제 안내나 교보재 링크
+      description: 공부하는데 도움이 된 참고자료
