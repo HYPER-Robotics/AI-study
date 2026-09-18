@@ -1,0 +1,15 @@
+# Virtual environments (including the clean reproduction environment)
+.venv/
+.venv-*/
+*venv/
+venv-*/
+env/
+ENV/
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.cache/
